@@ -1,0 +1,35 @@
+Das projekt habe in opengl c++ gemacht .
+Es geht um das Solar System ,Und zwar die Sonne , die Planeten und der Mond und ihre Bahnen.
+Die Abstände zwischen sich , ihre geschwindigkeit und ihre Größe wurden von realität skaliert .
+die planeten drehen sich um die sonne in Oval form auch der Mond um die Erde .
+ich kann die Szene um x,y und z Achse drehen .
+Kamera Position kann um x,y und z verändern werden .
+Und welche Planet  die Kamera  anschaut kann.
+die geschwindigkeit kann schneller oder langsamer sein.
+Ich habe auch die möglichkeit um die Mondfinsernis und Sonnenfinsternis darzustellen.
+----------------------------------------------------------------------------------------
+ 
+x ---> Drehung der szene um X-Achse.
+y ---> Drehung der szene um Y-Achse.
+z ---> Drehung der szene um Z-Achse.
+------{     camera Position (x,y,z )  }----------
+s ---> Kamera verschieben nach hinten (z achse).  
+w ---> Kamera verschieben nach vorne (z achse)
+j ---> Kamera verschieben nach Links (X achse).
+l---> Kamera verschieben nach rechts (X achse).
+k ---> Kamera verschieben nach oben (Y achse).
+i ---> Kamera verschieben nach unten (Y achse).
+-------{       camera look at(x,y)      }--------------
+a ---> Kamera Betrachtet ein Objekt on X-Achse links anschauen.  
+d ---> Kamera Betrachtet ein Objekt on X-Achse rechts anschauen.
+q ---> Kamera Betrachtet ein Objekt on Y-Achse oben anschauen.
+e ---> Kamera Betrachtet ein Objekt on Y-Achse unten anschauen.
+
+1-8 ----> die planeten betrachten je nach ihre abstände von Sonne 
+9 ----> Mondfinsternis
+0 ----> Sonnenfinsternis
+
+Key_Up ---> Anstieg  die geschwindigkeit der Umdrehung
+Key_Dawn---> senken die Geschwindigkeit  der Umdrehung
+ 
+Enter(Eingabe) ---> Der start Zustand
